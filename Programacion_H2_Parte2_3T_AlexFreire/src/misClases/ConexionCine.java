@@ -20,7 +20,7 @@ public class ConexionCine {
 
             // Itera sobre el resultado e imprime los datos
             while (miResultSet.next()) {
-                System.out.println("Título: " + miResultSet.getString("id")); // Este debería ser "ID", no "Título"
+                System.out.println("ID: " + miResultSet.getString("id")); // Este debería ser "ID", no "Título"
                 System.out.println("Título: " + miResultSet.getString("titulo"));
                 System.out.println("Director: " + miResultSet.getString("director"));
                 System.out.println("Año: " + miResultSet.getString("anyo"));
